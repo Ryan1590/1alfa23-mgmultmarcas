@@ -1,0 +1,154 @@
+body{
+  background-color: #f4f4f4;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header{
+    padding:50px;
+}
+#header div{
+    display: inline-block;
+}
+#header .contato{
+    float: right;
+}
+nav.menu{
+    background-color: #ffda1f;
+    text-align: center;
+}
+nav.menu ul li{
+    display: inline-block;
+    padding: 18px 90px; 
+    font-size:17px;
+}
+nav.menu ul li a{
+    color: #000;
+}
+a{
+  text-decoration: none;
+}
+.banner img{
+    width: 100%;
+}
+.marcas ul li {
+    display: inline-block;
+    font-size: 35px;
+    width: 16%;
+    padding: 50px;
+}
+
+div.item {
+
+    display: inline-block;
+    width: 30%;
+    padding: 1.5%;
+    line-height: 20px;
+    text-align: center;
+    color: #474747;
+}
+
+img {
+
+    width: 100%;
+}
+
+.financiamento {
+    background-color: #ffda1f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px;
+    line-height: 40px;
+}
+
+.botao a {
+
+    background-color: rgb(3, 122, 227);
+    color: white;
+    padding: 10px 30px;
+}
+
+.botao {
+
+    margin-top: 30px;
+}
+
+.produtos, .depoimentos{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.titulo {
+
+    font-size: 45px;
+    font-weight: bold;
+   
+}
+
+ .subtitulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 20px;
+   
+}
+
+.sublinhado {
+
+    width:150px;
+    background: #ffda1f;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+a:hover{
+
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+footer {
+
+    background-color: #474747;
+}
+
+footer .item{
+
+    color: #f4f4f4;
+}
+
+.imgcliente{
+
+width: 90px;
+height: 70px;
+}
+
+.depoimentos .item {
+    border:  1px solid #474747;
+    width: calc(30% - 2px);
+   
+
+}
+
+.depoimentos img {
+
+    width: 80px;
+    border-radius: 130px;
+    padding: 10px;
+}
+
+.depoimentos .cliente{
+
+    margin-bottom: -95px;
+    padding-top: 20px;
+}
+
+.depoimentos .cliente .nome {
+
+    font-weight: bold;
+    text-transform: uppercase;
+}
